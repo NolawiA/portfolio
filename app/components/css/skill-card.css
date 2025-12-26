@@ -1,0 +1,43 @@
+.project-card {
+    display: flex;
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin-top: 1%;
+    padding-right: 10%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 25px;
+    border: 3px solid #ccc;
+
+    #skill-card-image {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        width: 100px;
+        height: 100px;
+
+        img {
+            width: 100%;
+            object-fit: contain;
+            cursor: pointer;
+        }
+
+        div {
+            display: flex;
+            position: absolute;
+            width: 55px;
+            height: 60px;
+            padding-left: 5px;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            color: white;
+            backdrop-filter: blur(50px);
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    }
+}
